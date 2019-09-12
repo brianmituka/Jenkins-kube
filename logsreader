@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Reading log files for pod $1"
+for pod in $(kubectl get pods -o name | grep $1); 
+do kubectl logs $pod;
+done
