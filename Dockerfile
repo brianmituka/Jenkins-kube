@@ -18,7 +18,7 @@ RUN /usr/local/bin/install-plugins.sh htmlpublisher
 RUN /usr/local/bin/install-plugins.sh greenballs
 RUN /usr/local/bin/install-plugins.sh simple-theme-plugin
 
-# Scaling
+# Kubernetes plugin
 RUN /usr/local/bin/install-plugins.sh kubernetes
 
 # install Maven

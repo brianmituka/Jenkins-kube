@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: jenkins-image
-        image: chimiemots/fsms:v0.1
+        image: chimiemots/jenkins:latest #change this to whatever image you want
         env:
          - name:  JAVA_OPTS
            value: -Djenkins.install.runSetupWizard=false
