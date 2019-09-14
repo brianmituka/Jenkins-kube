@@ -7,7 +7,7 @@
 osType=$(uname)
         
 install_minikube(){
-    if ["$osType" == "Darwin"]; then
+    if [ "$osType" == "Darwin" ]; then
         echo "Installing on mac"
         brew cask install minikube
     else
@@ -20,7 +20,7 @@ install_minikube(){
 
 install_virtualbox(){
     echo "Installing virtual box"
-    if ["$osType" == "Darwin"]; then
+    if [ "$osType" == "Darwin"] ; then
         echo "Installing on mac"
         echo "Execute the downloaded binary to install virtualbox ##TODO Script to Install "
         wget https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-OSX.dmg    
@@ -32,7 +32,7 @@ install_virtualbox(){
 
 install_kubectl(){
     echo "Installing Kubectl"
-    if ["$osType" == "Darwin"]; then
+    if [ "$osType" == "Darwin" ]; then
         echo "Installing on mac"
         brew install kubernetes-cli
     else
@@ -45,7 +45,7 @@ install_kubectl(){
 }
 
 install_docker (){
-   if ["$osType" == "Darwin"]; then
+   if [ "$osType" == "Darwin" ]; then
         echo "Installing on mac"
         brew cask install docker
     else
