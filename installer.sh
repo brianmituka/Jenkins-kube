@@ -20,7 +20,7 @@ install_minikube(){
 
 install_virtualbox(){
     echo "Installing virtual box"
-    if [ "$osType" == "Darwin"] ; then
+    if [ "$osType" == "Darwin" ] ; then
         echo "Installing on mac"
         echo "Execute the downloaded binary to install virtualbox ##TODO Script to Install "
         wget https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-OSX.dmg    
