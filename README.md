@@ -17,7 +17,6 @@
 - Talk about service role and why one is required
 - Find the port mapping of jenkins aka what port 8080 is mapped to
 - Talk about hte Jenkins kubernetes plugin etc
-- Ensure it fucking scales!!!!!!!!
 
 
 
