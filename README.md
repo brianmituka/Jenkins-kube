@@ -8,15 +8,4 @@
 - Jenkins docker image
 
 
-### TODO::
-- talk about kubernetes
-- talk about Docker
-- Briefly explain what a kubernetes service file is
-- Expalin what a kubernetes deployment file is
-- How the files are used e.t.c
-- Talk about service role and why one is required
-- Find the port mapping of jenkins aka what port 8080 is mapped to
-- Talk about hte Jenkins kubernetes plugin etc
-
-
 
